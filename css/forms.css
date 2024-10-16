@@ -1,0 +1,148 @@
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 50px auto;
+    margin-top: 100px;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#login-message, #register-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#login-message {
+    color: red;
+}
+
+#register-message {
+    color: green;
+}
+
+
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 20px;
+        margin: 20px;
+        margin-top: 100px;
+        max-width: 90%;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    form input[type="text"], input[type="email"], input[type="password"] {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Small devices (portrait tablets, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    form {
+        padding: 25px;
+        margin: 30px;
+        margin-top: 80px;
+        max-width: 80%;
+    }
+
+    label {
+        font-size: 1.1rem;
+    }
+
+    form input[type="text"], input[type="email"], input[type="password"] {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    form {
+        padding: 30px;
+        margin: 40px auto;
+        margin-top: 90px;
+        max-width: 70%;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+
+    form input[type="text"], input[type="email"], input[type="password"] {
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+
+    button {
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    form {
+        padding: 30px;
+        margin: 50px auto;
+        margin-top: 100px;
+        max-width: 50%;
+    }
+
+    label {
+        font-size: 1.3rem;
+    }
+
+    form input[type="text"], input[type="email"], input[type="password"] {
+        padding: 16px;
+        font-size: 1.2rem;
+    }
+
+    button {
+        padding: 16px;
+        font-size: 1.2rem;
+    }
+}

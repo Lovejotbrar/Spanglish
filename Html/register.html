@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanglish - Register</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/forms.css">
+</head>
+<body>
+
+    <header class="mobile">
+        <div class="nav-container">
+            
+            <div class="menu-toggle" onclick="toggleNav()">
+                ☰
+            </div>
+            
+          
+            <div class="brand-name">
+                Spanglish
+            </div>
+            
+         
+            <div class="user-login mb">
+                <p id="user-name" class="user-name"> </p>
+                <div class="profile-pic" id="profile-pic1"></div>
+            </div>
+        
+        <nav id="side-nav" class="side-nav">
+            <div class="close-btn" onclick="toggleNav()">×</div>
+            <ul>
+                <li><a href="../Html/index.html" >Home</a></li><br>
+            <li><a href="../Html/about.html" >About</a></li><br>
+            <li><a href="../Html/login.html" >Login</a></li><br>
+            <li><a href="../Html/register.html" style="text-decoration: underline;">Register</a></li><br>
+            </ul>
+
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+            </div>
+            <br><br>
+            
+            <div class="language-switcher">
+                <div class="language-toggle" id="lang-toggle">
+                    <div class="lang">
+                        <span class="lan1"> English </span>
+                        <span class="lan1">Español</span></div>
+                        <div class="inner-toggle" id="inner-toggle">English</div>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+
+    <header class="navbar pc" >
+
+        
+        <h1>Spanglish</h1>
+
+        <div class="language-switcher">
+            <div class="language-toggle" id="lang-toggle2">
+                <div class="lang">
+                    <span class="lan1"> English </span>
+                <span class="lan1">Español</span></div>
+                <div class="inner-toggle" id="inner-toggle2">English</div>
+            </div>
+        </div>
+
+
+        <ul>
+            <li><a href="../Html/index.html" >Home</a></li>
+            <li><a href="../Html/about.html" >About</a></li>
+            <li><a href="../Html/login.html" >Login</a></li>
+            <li><a href="../Html/register.html" style="text-decoration: underline;">Register</a></li>
+        </ul>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput2" placeholder="Search...">
+        </div>
+
+       
+       
+        <div class="user-login">
+            <p id="user-name2" class="user-name"> </p>
+            <div class="profile-pic" id="profile-pic"></div>
+        </div>
+    </header>
+    <section class="register-form eng">
+        <form id="registerForm">
+            <h1 style="text-align: center;">Register</h1>
+            <label for="username">Username:</label>
+            <input type="text" id="register-username" name="username" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="register-email" name="email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="register-password" name="password" required><br>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="register-confirm-password" name="confirmPassword" required><br>
+<br>
+            <button type="submit">Register</button>
+        </form>
+        <p id="register-message"></p>
+
+
+    </section>
+
+    <section class="register-form spanish">
+
+    <form id="registerForm" >
+        <h1 style="text-align: center;">Registrar</h1>
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="register-username" name="username" required><br>
+
+        <label for="register-email-es">Correo electrónico:</label>
+        <input type="email" id="register-email" name="email" required><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="register-password" name="password" required><br>
+
+        <label for="confirmPassword-es">Confirmar Contraseña:</label>
+        <input type="password" id="register-confirm-password" name="confirmPassword" required><br>
+<br>
+        <button type="submit">Registrar</button>
+    </form>
+    </section>
+<br><br>
+
+
+    <br>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p class="eng">
+                    Contact us: <a href="mailto:info@spanglish.com">info@spanglish.com</a>
+                </p>
+                <p class="spanish">
+                    Contáctanos: <a href="mailto:info@spanglish.com">info@spanglish.com</a>
+                </p>
+            </div>
+            <div class="footer-right">
+                <p class="eng">&copy; 2024 Spanglish. All rights reserved.</p>
+                <p class="spanish">&copy; 2024 Spanglish. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+        
+   <script src="../js/toggle.js"></script>
+   <script src="../js/search.js"></script>
+   <script src="../js/register.js"></script>
+   <script src="../js/login.js"></script>
+
+</body>
+</html>
